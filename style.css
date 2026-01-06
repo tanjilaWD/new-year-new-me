@@ -51,3 +51,39 @@ font-optical-sizing: auto;
     padding: 20px 25px;
     cursor: pointer;
 }
+/* previous section */
+.previous{
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin: 130px 0;
+    margin: 131px 300px 130px 206px;
+    gap:30px;
+}
+.previous-img{
+    max-width: 569px;
+}
+.previous-content{
+    max-width: 416px;
+}
+.previous-content h2{
+    font-size: 40px;
+    font-weight: bold;
+    color:#151414;
+    margin-bottom: 24px;
+}
+.previous-content p {
+    font-size: 16px;
+    color:#444343;
+    line-height: 26px;
+}
+.previous-content .list{
+    margin-top: 15px;
+}
+.previous-content .list p {
+    line-height: 36px;
+}
+.previous-content .list i{
+    color:#16D887;
+    margin-right: 8px;
+}
