@@ -87,3 +87,35 @@ font-optical-sizing: auto;
     color:#16D887;
     margin-right: 8px;
 }
+/* plans Section */
+.plans{
+ max-width: 1140px;
+ margin: 0 auto;
+}
+.plans h2{
+    text-align: center;
+    margin-bottom: 55px;
+    font-size: 40px;
+    color:#151414;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+.plans img{
+    width:80px;
+}
+.plan-card{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.plan-card h3{
+    font-size: 30px;
+    color: #151414;
+    margin-bottom: 14px;
+}
+.plan-card p{
+    font-size: 25px;
+    color:#737272;
+    font-weight: 400;
+}
