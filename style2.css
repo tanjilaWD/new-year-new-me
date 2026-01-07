@@ -7,6 +7,9 @@
     font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
 }
+/* .....................
+   hero section
+........................ */
 .hero-container{
     background: url(./images/banner/banner2.png);
     background-repeat: no-repeat;
@@ -20,7 +23,6 @@
 }
 .hero-container .content{
     width: 650px;
-    /* flex-direction: column; */
     gap: 20px;
     text-align: right;
     padding-right: 10%;
@@ -47,3 +49,34 @@
     border-radius: 5px;
     cursor: pointer;
   }
+  /* .....................
+   previous section
+........................ */
+.previous-container{
+    display: flex;
+    max-width: 1072px;
+    /* margin: 0 auto; */
+    margin: 130px 280px 130px 206px;
+    align-items: center;
+    gap:50px;
+}
+.previous-container .content h2{
+    font-size: 40px;
+    color:#151414;
+    margin-bottom: 24px;
+}
+.previous-container .content p{
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+}
+.previous-container .content .list{
+    margin-top: 16px;
+}
+.previous-container .content .list p{
+    line-height: 36px;
+}
+.previous-container .content .list i{
+    margin-right: 8px;
+    color:#16D887 ;
+}
