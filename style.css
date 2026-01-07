@@ -119,3 +119,31 @@ font-optical-sizing: auto;
     color:#737272;
     font-weight: 400;
 }
+/* call section */
+.call{
+    max-width: 1140px;
+    height:300px;
+    background: linear-gradient(90.00deg, rgba(241, 91, 34, 1),rgba(241, 91, 34, 0) 100%), url(./images/watch.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+     margin-bottom: 130px;
+}
+.call h2{
+    font-size: 40px;
+    font-weight: bold;
+    color:#FFFFFF;
+    padding: 59px 617px 24px 64px;
+}
+.call .btn1{
+    font-size: 20px;
+    font-weight: 600;
+    color:#F15B22;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 36px;
+    background: #FFFFFF;
+    margin: 24px 0 0 64px;
+
+}
+
